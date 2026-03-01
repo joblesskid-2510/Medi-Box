@@ -42,6 +42,81 @@ MediBox is a role-based healthcare web application that ensures patients take th
 
 ---
 
+## 📸 Screenshots
+
+### 🏠 Landing Page
+> The public-facing homepage with a sleek cyber-medical aesthetic, featuring quick-access demo credentials and call-to-action buttons.
+
+![Landing Page](screenshots/landing-page.png)
+
+---
+
+### 🧑‍⚕️ Patient Portal
+
+#### Dashboard
+> Patients see their medicine compliance stats at a glance — total intakes, verified doses, and compliance percentage — along with a prominent "Take Medicine Now" button and recent activity feed.
+
+![Patient Dashboard](screenshots/patient-dashboard.png)
+
+#### Take Medicine (Face-Verified Intake)
+> A guided 3-step flow: verify your face → record yourself taking medicine → submit the clip for doctor review. The screenshot shows the success screen after submission.
+
+![Take Medicine](screenshots/take-medicine.png)
+
+#### Medicine History
+> A complete log of all past medicine intakes with timestamps, clip durations, reviewing doctor/caretaker name, and verification status (Verified / Pending).
+
+![Medicine History](screenshots/medicine-history.png)
+
+---
+
+### 👨‍⚕️ Doctor Portal
+
+#### Dashboard & Intake Review
+> Doctors get an overview of pending reviews, accepted/rejected counts, and total patients. They can filter medicine intake clips by status and review them.
+
+![Doctor Dashboard](screenshots/doctor-dashboard.png)
+
+#### Review Medicine Intake Clip
+> A modal allows doctors to play back the patient's recorded intake video and then accept or reject it with a single click.
+
+![Review Intake](screenshots/review-intake.png)
+
+#### Patient Management
+> Doctors can register patients, assign caretakers, and manage prescriptions — all from one page with quick-action buttons for each patient.
+
+![Patient Management](screenshots/patient-management.png)
+
+---
+
+### 👥 Caretaker Portal
+
+#### Dashboard
+> Caretakers share a similar review interface as doctors — they can monitor assigned patients and review pending medicine intake clips.
+
+![Caretaker Dashboard](screenshots/caretaker-dashboard.png)
+
+---
+
+### 🛡️ Admin Panel
+
+#### Dashboard
+> A comprehensive system overview with total users, intake stats, AI/ML settings toggle, users-by-role breakdown, and real-time system health indicators.
+
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+#### User Management
+> A full table of all registered users showing name, email, role (color-coded badges), and join date.
+
+![All Users](screenshots/all-users.png)
+
+#### System Logs
+> Scrollable view of all users alongside a live medicine log feed showing intake timestamps, reviewing authority, and verification status.
+
+![System Logs](screenshots/system-logs.png)
+
+---
+
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
